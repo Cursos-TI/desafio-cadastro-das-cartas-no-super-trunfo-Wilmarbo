@@ -18,11 +18,11 @@ int main() {
     int ponto;
     int ponto2;
 
-    // Carta 1
+    // 1ª Carta
     printf("Carta 1: \n");
     printf("Digite uma letra de A a H: \n");
     scanf(" %c", &estados);  
-    printf("Digite uma letra de um estado em seguida de um número de 01 a 04 Ex:(B02,A03): \n");
+    printf("Digite uma letra de um estado e um número de 01 a 04 Ex:(B02,A03): \n");
     scanf("%s", codigo);
     printf("Digite o nome de uma cidade: \n");
     scanf("%s", cidade);
@@ -35,11 +35,10 @@ int main() {
     printf("Digite o número de pontos turísticos: \n");
     scanf("%d", &ponto);
 
-    // Carta 2
-    printf("Vamos fazer o mesmo processo só que agora pra carta 2: \n");
+    // 2ª Carta
     printf("Digite uma letra de A a H: \n");
     scanf(" %c", &estado2); 
-    printf("Digite uma letra de um estado em seguida de um número de 01 a 04 Ex:(B02,A03): \n");
+    printf("Digite uma letra de um estado e um número de 01 a 04 Ex:(B02,A03): \n");
     scanf("%s", codigo2);
     printf("Digite o nome de uma cidade: \n");
     scanf("%s", cidade2);
