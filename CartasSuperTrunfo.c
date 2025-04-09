@@ -8,7 +8,7 @@ int main() {
     char codigo[50];
     char codigo2[50];
     char cidade[50];
-    char cidade2[50];
+    char cidade2[50]; 
     int populacao;
     int populacao2;
     float area;
@@ -19,7 +19,8 @@ int main() {
     int ponto2;
 
     // 1ª Carta
-    printf("Carta 1: \n");
+    printf("Carta 1! \n");
+    
     printf("Digite uma letra de A a H: \n");
     scanf(" %c", &estados);  
     printf("Digite uma letra de um estado e um número de 01 a 04 Ex:(B02,A03): \n");
@@ -36,6 +37,9 @@ int main() {
     scanf("%d", &ponto);
 
     // 2ª Carta
+    printf("Preencha agora a segunda carta! \n");
+    printf("CARTA 2! \n");
+
     printf("Digite uma letra de A a H: \n");
     scanf(" %c", &estado2); 
     printf("Digite uma letra de um estado e um número de 01 a 04 Ex:(B02,A03): \n");
